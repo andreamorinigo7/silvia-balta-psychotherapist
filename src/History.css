@@ -1,0 +1,23 @@
+.history {
+  background-color: #d2e0ee;
+  height: 1066px;
+  width: 100%;
+}
+
+.history .row {
+  padding: 105px 40px;
+}
+
+.content-title {
+  font-size: 25px;
+  font-family: "Quattrocento", serif;
+  padding-left: 40px;
+}
+
+.card {
+  padding: 48px 28px;
+}
+
+.card h4 {
+  font-family: "Quattrocento", serif;
+}

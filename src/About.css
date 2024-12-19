@@ -1,0 +1,10 @@
+h2 {
+  font-family: "Quattrocento", serif;
+}
+
+.profile-column {
+  background-color: #f2e3d2;
+  border-radius: 50px;
+  width: 600px;
+  height: 600px;
+}
