@@ -1,0 +1,62 @@
+.hero {
+  background-image: url("/public/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 260px 0;
+  height: 790px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  text-align: center;
+  color: #fff;
+  line-height: 70px;
+  font-size: 64px;
+  font-family: "Quattrocento", serif;
+}
+
+.btn-branding {
+  padding: 20px 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 155px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-branding:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  font-family: "Quattrocento", serif;
+  margin: 125px 94px 50px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.btn-branding-outline {
+  color: #84a29f;
+  border: 1px solid #84a29f;
+  margin-bottom: 120px;
+  padding: 16px 24px;
+}
+
+.btn-branding-outline:hover {
+  color: #84a29f;
+  border: 1px solid #84a29f;
+  cursor: pointer;
+}
