@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Testimonals from "./Testimonals";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           Email to schedule
         </a>
       </div>
+      <Testimonals />
     </div>
   );
 }

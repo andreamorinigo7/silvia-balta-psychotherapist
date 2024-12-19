@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
@@ -11,8 +12,12 @@ export default function Footer() {
             therapy a natural and easy transition
           </p>
           <div className="social-media-links ps-5 mt-5 ">
-            <span>linkedin</span>
-            <span>youtube</span>
+            <span>
+              <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+            </span>
+            <span>
+              <FontAwesomeIcon icon="fa-brands fa-youtube" />
+            </span>
           </div>
         </div>
 

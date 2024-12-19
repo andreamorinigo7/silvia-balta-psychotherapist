@@ -1,0 +1,31 @@
+.testimonals {
+  height: 740px;
+  background-color: #84a29f;
+  margin: 0 auto;
+}
+
+.testimonals h2 {
+  padding: 40px 0 0 130px;
+  font-size: 48px;
+  line-height: 80px;
+  font-family: "Quattrocento", serif;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 33px;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.testimonal-cards {
+  padding: 90px 50px;
+}
+
+.testimonal-card {
+  background-color: #c8d9d3;
+  padding: 45px 33px;
+  border-radius: 10px;
+}
