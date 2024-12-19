@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import History from "./History";
+import silvia from "./silvia.png";
 
 export default function About() {
   return (
@@ -37,7 +38,7 @@ export default function About() {
         </div>
         <div className="col-lg-6 d-flex justify-content-center profile-column">
           <img
-            src="../public/silvia.png"
+            src={silvia}
             alt="silvia-photo"
             className="img-fluid head-shot"
           />
