@@ -1,29 +1,30 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="container">
-      <div>
-        <div>
-          <p>
-            Silvia Balta Espinal creats a soothing environent to make therapy a
-            natural and easy transition
+    <div className="footer ">
+      <div className="row  ">
+        <div className="col-6 ps-3 ">
+          <p className="ps-5 ">
+            Silvia Balta Espinal creats a soothing environent <br /> to make
+            therapy a natural and easy transition
           </p>
-          <div className="social-media-links">
+          <div className="social-media-links ps-5 mt-5 ">
             <span>linkedin</span>
             <span>youtube</span>
-            <span>linkedin</span>
           </div>
         </div>
-      </div>
-      <div>
-        <a href="/about">Biography</a>
-      </div>
-      <div>
-        <a href="/services">Services</a>
-      </div>
-      <div>
-        <a href="/contact">Inquire</a>
+
+        <div className="col-6 ps-5 site-links">
+          <a href="/about">Biography</a>
+          <br />
+          <br />
+          <a href="/services">Services</a>
+          <br />
+          <br />
+          <a href="/contact">Inquire</a>
+        </div>
       </div>
       <hr />
     </div>
