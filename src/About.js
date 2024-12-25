@@ -9,23 +9,26 @@ export default function About() {
       <div className="row  justify-content-center">
         <div className="col-lg-6">
           <div className="content">
-            <h2 className="mb-4">
-              Hi there! I’m Silvia, the designer behind the branding studio.
-            </h2>
+            <h2 className="mb-4">Hi there! I’m Silvia.</h2>
             <div className="mb-5 me-4">
-              I founded TKD with a passion for creating strategic and beautiful
-              brands and websites. Over time, it has evolved into a premium
-              creative agency, proudly serving custom home builders, architects,
-              interior designers, medical spas, lawyers, therapists,
-              dermatologists, and many more .
-              <br />I studied marketing at San Diego State University and spent
-              years developing my craft. My favorite projects involve
-              customizing typography to create unique brand marks. Apart from my
-              design passion, I’m a California native now living in Texas and
-              splitting my time between the U.S. and Germany. <br /> I enjoy
-              learning German (to keep up with the in-laws!), and can most
-              likely be found at pilates or searching for the best iced matcha
-              latte in town. 
+              “Beloved community is formed not by the eradication of difference
+              but by its affirmation, by each of us claiming the identities and
+              cultural legacies that shape who we are and how we live in the
+              world”. <br /> <br />― Bell Hooks <br /> <br />I firmly believe in
+              the power of human relationships. I was born and raised in Peru
+              until my teenage years, and I have lived in New York for the past
+              twenty-five years.
+              <br /> Being bilingual and bicultural has allowed me to navigate
+              diverse worlds and contexts, deepening my understanding of life’s
+              complexities. My identities as a woman of color, an immigrant, a
+              mother, a partner, and an LGBTQ+ ally have shaped my experiences
+              and influenced the way I perceive the world. <br />
+              In my professional roles as an educator, supervisor, and
+              psychotherapist, I have learned that to effectively help others,
+              one must have a deep understanding of oneself. I have been
+              practicing for fifteen years, working with a wide range of clients
+              who face diverse issues. I graduated from NYU and have taught at
+              recognized institutions.
             </div>
             <a
               href="/services"

@@ -4,34 +4,33 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
-    <div className="footer ">
-      <div className="row  ">
-        <div className="col-6 ps-3 ">
-          <p className="ps-5 ">
-            Silvia Balta Espinal creats a soothing environent <br /> to make
-            therapy a natural and easy transition
-          </p>
-          <div className="social-media-links ps-5 mt-5 ">
-            <span>
-              <FontAwesomeIcon icon="fa-brands fa-linkedin" />
-            </span>
-            <span>
-              <FontAwesomeIcon icon="fa-brands fa-youtube" />
-            </span>
-          </div>
-        </div>
+    <div className="grid-2-footer">
+      <div>
+        <p>
+          New York, NY 10010 <br /> <br /> Mount Kisco, 10549
+          <br />
+          <br />
+          silviabe.psychotherapy@gmail.com <br />
+          917-994-6446
+        </p>
 
-        <div className="col-6 ps-5 site-links">
-          <a href="/about">Biography</a>
-          <br />
-          <br />
-          <a href="/services">Services</a>
-          <br />
-          <br />
-          <a href="/contact">Inquire</a>
+        <div className="social-media-links ps-5 mt-5 ">
+          <span>
+            <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+          </span>
+          <span>
+            <FontAwesomeIcon icon="fa-brands fa-youtube" />
+          </span>
         </div>
       </div>
-      <hr />
+
+      <div>
+        <p>
+          {" "}
+          Monday – Friday <br /> 10am – 6pm <br /> <br />
+          Ask about evening hours
+        </p>
+      </div>
     </div>
   );
 }

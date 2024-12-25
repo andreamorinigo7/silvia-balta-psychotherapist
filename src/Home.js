@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <div className="hero">
         <h1>SILVIA ESPINAL, LCSW</h1>
-
+        <h1>Psychotherapy and Clinical Supervision</h1>
         <a href="/contact" class="btn btn-branding">
           Get started
         </a>
