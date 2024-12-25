@@ -1,22 +1,18 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin-left: 120px;
+  gap: 0px;
+  margin: 0 auto;
+  padding-left: 140px;
   justify-content: center;
-  padding: 20px;
 }
 
 .row {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
-}
-
-.col-6 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  gap: 20px;
+  display: block;
+  margin: 0 auto;
 }
 
 .img-fluid {
@@ -26,8 +22,14 @@
 }
 
 .therapy-description {
-  max-width: 90%;
-  text-align: left;
+  max-width: 100%;
+  text-align: justify;
+}
+
+.therapy-title {
+  font-family: "Quattrocento", serif;
+  font-size: 24px;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
@@ -47,6 +49,9 @@
 
   .therapy-description {
     max-width: 100%;
+    text-align: center;
+  }
+  .therapy-title {
     text-align: center;
   }
 }

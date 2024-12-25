@@ -10,12 +10,13 @@ export default function Gallery() {
   return (
     <div className="gallery">
       <div className="row">
-        <div className="col-6">
+        <div className="col-9">
           <img
             src={Family}
             alt="Family therapy"
             className="img-fluid family-img"
           />
+          <p className="therapy-title">Family Therapy</p>
           <p className="therapy-description">
             Families can take many forms, whether they are biological, kin, or
             chosen. The ever-evolving experiences associated with parenthood,
@@ -27,12 +28,13 @@ export default function Gallery() {
             present
           </p>
         </div>
-        <div className="col-6">
+        <div className="col-9">
           <img
             src={Individual}
             alt="individual therapy"
             className="img-fluid individual"
           />
+          <p className="therapy-title">Individualized Therapy</p>
           <p className="therapy-description">
             This space will offer an opportunity for individuals to feel
             acknowledged and understood. Here, you’ll be supported and
@@ -49,12 +51,13 @@ export default function Gallery() {
       </div>
 
       <div className="row">
-        <div className="col-6">
+        <div className="col-9">
           <img
             src={therapy}
             alt="therapy in spanish "
             className="img-fluid spanish-therapy"
           />
+          <p className="therapy-title">Terapia en Español </p>
           <p className="therapy-description">
             “El amor empieza en el hogar". M.T. Esta frase es mi guía para
             ayudar a mis clientes. Empezar la terapia no es fácil. Muchas
@@ -69,12 +72,13 @@ export default function Gallery() {
             diversidad cultural de nuestra comunidad Latina.
           </p>
         </div>
-        <div className="col-6">
+        <div className="col-9">
           <img
             src={couples}
             alt="couple therapy"
             className="img-fluid couple-therapy"
           />
+          <p className="therapy-title">Couples Therapy</p>
           <p className="therapy-description">
             Couples often seek therapy when they feel lost in their
             relationship, and it can sometimes seem like a last resort. I
@@ -92,12 +96,13 @@ export default function Gallery() {
       </div>
 
       <div className="row">
-        <div className="col-6">
+        <div className="col-9">
           <img
             src={clinical}
             alt="clinical therapy"
             className="img-fluid clincal-img"
           />
+          <p className="therapy-title">Clinical Supervision</p>
           <p className="therapy-description">
             I offer individual and group supervision to social workers and other
             mental health providers working in agencies, large institutions, and
