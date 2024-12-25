@@ -29,3 +29,9 @@
   padding: 45px 33px;
   border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+}

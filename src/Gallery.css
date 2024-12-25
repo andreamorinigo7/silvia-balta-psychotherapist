@@ -39,6 +39,10 @@
   margin-top: 80px;
 }
 
+.hero-2 {
+  max-width: 100%;
+}
+
 @media (max-width: 768px) {
   .gallery {
     grid-template-columns: 1fr;
