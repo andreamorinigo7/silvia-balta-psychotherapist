@@ -29,7 +29,7 @@
 .therapy-title {
   font-family: "Quattrocento", serif;
   font-size: 24px;
-  text-align: justify;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -37,9 +37,7 @@
     grid-template-columns: 1fr;
     gap: 20px;
     width: 100%;
-
-    margin: 0 120px auto;
-    max-width: 500px;
+    margin: 0 auto;
   }
 
   .col-6 {
@@ -49,9 +47,6 @@
 
   .therapy-description {
     max-width: 100%;
-    text-align: center;
-  }
-  .therapy-title {
-    text-align: center;
+    text-align: justify;
   }
 }
