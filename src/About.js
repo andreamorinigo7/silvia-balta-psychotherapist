@@ -6,13 +6,13 @@ import silvia from "./silvia.png";
 export default function About() {
   return (
     <div className="about">
-      <div className="row justify-content-center">
+      <div className="row  justify-content-center">
         <div className="col-lg-6">
           <div className="content">
             <h2 className="mb-4">
               Hi there! I’m Silvia, the designer behind the branding studio.
             </h2>
-            <p className="mb-5 me-4">
+            <div className="mb-5 me-4">
               I founded TKD with a passion for creating strategic and beautiful
               brands and websites. Over time, it has evolved into a premium
               creative agency, proudly serving custom home builders, architects,
@@ -26,7 +26,7 @@ export default function About() {
               learning German (to keep up with the in-laws!), and can most
               likely be found at pilates or searching for the best iced matcha
               latte in town. 
-            </p>
+            </div>
             <a
               href="/services"
               title="Project button"
@@ -36,7 +36,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="col-lg-6 d-flex justify-content-center profile-column">
+        <div className="col-lg-6 profile-column d-flex justify-content-center profile-column">
           <img
             src={silvia}
             alt="silvia-photo"

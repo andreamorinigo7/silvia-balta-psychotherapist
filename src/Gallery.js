@@ -9,7 +9,7 @@ import "./Gallery.css";
 export default function Gallery() {
   return (
     <div className="gallery">
-      <div className="row">
+      <div className="row-grid">
         <div className="col-9">
           <img
             src={Family}
