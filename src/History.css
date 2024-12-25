@@ -1,6 +1,6 @@
 .history {
   background-color: #d2e0ee;
-  height: 1066px;
+  min-height: 100vh;
   width: 100%;
 }
 
