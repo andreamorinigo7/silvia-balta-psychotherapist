@@ -6,7 +6,7 @@ import silvia from "./silvia.png";
 export default function About() {
   return (
     <div className="about">
-      <div className="row  justify-content-center">
+      <div className="row  justify-content-center mt-5 mb-5">
         <div className="col-lg-6">
           <div className="content">
             <h2 className="mb-4">Hi there! I’m Silvia.</h2>
