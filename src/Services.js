@@ -41,6 +41,7 @@ export default function Services() {
           psychotherapy group practices, and large medical settings. 
         </p>
       </div>
+
       <Gallery />
     </div>
   );

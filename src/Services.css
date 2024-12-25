@@ -1,9 +1,10 @@
 .background {
   background-color: #d2e0ee;
-  padding: 90px 140px;
+  padding: 90px 240px;
 }
 
 .background-details {
   opacity: 70%;
   font-weight: 500;
+  text-align: justify;
 }
