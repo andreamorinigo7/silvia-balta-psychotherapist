@@ -7,10 +7,14 @@ h2 {
   border-radius: 50px;
   width: 600px;
   height: 600px;
-  text-align: end;
 }
 
 .head-shot {
   height: 500px;
   margin: auto;
+}
+@media (max-width: 768px) {
+  .content {
+    padding: 20px;
+  }
 }
